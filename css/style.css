@@ -1,0 +1,58 @@
+body {
+    background-color: #93B5C6;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    color: #174cdd;
+}
+
+.html-title {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #FFE3E3;
+}
+
+.css-title {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #FFE3E3;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: #FFE3E3;
+}
+
+.sectioning, .inline-semantics, .forms, .properties {
+    background-color: #C9CCD5;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.metadata, .image-multimedia, .misc {
+    background-color: #E4D8DC;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.text-content, .tables, .selectors {
+    background: #FFE3E3;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}

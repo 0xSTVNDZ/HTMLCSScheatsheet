@@ -12,7 +12,7 @@
 
 ## Technologies Used
 - HTML5
-- CSS5
+- CSS3
 
 
 ## Features
@@ -27,14 +27,13 @@ Project is: _in progress_
 
 ## Room for Improvement
 Room for improvement:
-- Add more
+- Add full MDN documention for both HTML & CSS
 
 To do:
-- Get started
+- Add CSS properties
 
 
 ## Acknowledgements
-Give credit here.
 - This project was inspired by...Codecademy
 
 
