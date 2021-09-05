@@ -5,9 +5,10 @@
         <link rel="stylesheet" href="./css/style.css">
     </header>
     <body>
-        <div class="html">
+        <div class="html" id="htmlStart">
             <h1 class="html-title">HTML</h1>
             <h3>Remember to google the available attributes for tags.</h3>
+            <h4>Jump to <a href="#cssStart">CSS</a> section</h4>
             <section class="sectioning">
                 <h2>Sectioning</h2>
                 <table>
@@ -481,8 +482,9 @@
                 </table>
             </section>
         </div>
-        <div class="css">
+        <div class="css" id="cssStart">
             <h1 class="css-title">CSS</h1>
+            <h4>Back to <a href="#htmlStart">HTML</a></h4>
             <section class="selectors">
                 <h2>Selectors</h2>
                 <table>
@@ -514,15 +516,153 @@
                     </tbody>
                 </table>
             </section>
-            <section class="properties">
-                <h2>Common Properties</h2>
+            <section class="boxmodelprop">
+                <h2>Box Model Properties</h2>
                 <table>
                     <thead>
                         <th>Property</th>
                         <th>Description</th>
                     </thead>
                     <tbody>
-
+                        <tr>
+                            <td>float</td>
+                            <td>The float property defines if a &lt;div&gt; or &lt;img&gt; element should 
+                                float to the left or to the right, e.g.: {float: left;} or 
+                                {float: right;}</td>
+                        </tr>
+                        <tr>
+                            <td>width</td>
+                            <td>This property defines the width of a &lt;div&gt; element, e.g.: 
+                                {width: 996px;}</td>
+                        </tr>
+                        <tr>
+                            <td>height</td>
+                            <td>Defines the height of a &lt;div&gt; element, e.g.: {height: 100px;}</td>
+                        </tr>
+                        <tr>
+                            <td>margin</td>
+                            <td>Defines the margin for all four sides in one declaration. First value 
+                                relates to top margin, second value to right margin, third value to 
+                                bottom margin and fourth value to left margin, e.g.: 
+                                {margin: 10px 20px 8px 15px;}</td>
+                        </tr>
+                        <tr>
+                            <td>padding</td>
+                            <td>Defines the padding for all four sides in one declaration. First value 
+                                relates to top padding, second value to right padding, third value to 
+                                bottom padding and fourth value to left padding, e.g.: 
+                                {padding: 10px 20px 8px 15px;}</td>
+                        </tr>
+                        <tr>
+                            <td>display</td>
+                            <td>Allows for an element to be displayed as inline element 
+                                (e.g. &lt;span&gt; element) or as block element (e.g. &lt;p&gt; element). 
+                                    E.g.: {display: inline;} or {display: block;}.</td>
+                        </tr>
+                        <tr>
+                            <td>clear</td>
+                            <td>The clear property defines the side(s) that another floating HTML 
+                                element is/are not allowed to be positioned, e.g.: {clear: left;}, 
+                                {clear: right;} or {clear: both;}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="backnborderprop">
+                <h2>Background and Border Properties</h2>
+                <table>
+                    <thead>
+                        <th>Property</th>
+                        <th>Description</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>background-color</td>
+                            <td>This property defines the background color of a &lt;div&gt; or &lt;body&gt; 
+                                element. The colour may be specified using one of the predefined 
+                                HTML color names, hex value or RGB value</td>
+                        </tr>
+                        <tr>
+                            <td>background-image</td>
+                            <td>Allows the use of an image as background image of a &lt;div&gt; or &lt;body&gt; 
+                                element, e g.: 
+                                {background-image: url("../images/css/wrapper-bg.jpg");}</td>
+                        </tr>
+                        <tr>
+                            <td>background-position</td>
+                            <td>Sets the position of a background image</td>
+                        </tr>
+                        <tr>
+                            <td>background-repeat</td>
+                            <td>Specifies whether a background image is repeated (tiled) and how it is 
+                                repeated</td>
+                        </tr>
+                        <tr>
+                            <td>border</td>
+                            <td>Defines the border for all four sides of a &lt;div&gt; in one declaration. First
+                                 value relates to border width, second value to border style and third 
+                                 value to border colour, e.g.: {border: 2px solid silver;}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="text-content">
+                <h2>Textual Content Properties</h2>
+                <table>
+                    <thead>
+                        <th>Property</th>
+                        <th>Description</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>font-family</td>
+                            <td>Defines a prioritised list of font names and/or generic font family names</td>
+                        </tr>
+                        <tr>
+                            <td>font-size</td>
+                            <td>The size of the displayed font, e.g.: {font-size: 12px;}</td>
+                        </tr>
+                        <tr>
+                            <td>color</td>
+                            <td>Defines the text colour. The color may be specified using one of the
+                                 predefined HTML color names, hex value or RGB value</td>
+                        </tr>
+                        <tr>
+                            <td>font-weight</td>
+                            <td>Weight of the displayed font, e.g. {font-weight: bold;} or 
+                                {font-weight: normal;}</td>
+                        </tr>
+                        <tr>
+                            <td>font-style</td>
+                            <td>Defines the font style, e.g. {font-style: italic;} or {font-style: normal;}</td>
+                        </tr>
+                        <tr>
+                            <td>text-decoration</td>
+                            <td>Sets the text decoration, e.g. {text-decoration: underline;}, 
+                                {text-decoration: line-through;} or {text-decoration: none;}</td>
+                        </tr>
+                        <tr>
+                            <td>text-align</td>
+                            <td>Aligns content, not only text, within an HTML element, e.g. 
+                                {text-align: left;}, {text-align: center;} or {text-align: right;}</td>
+                        </tr>
+                        <tr>
+                            <td>text-indent</td>
+                            <td>Indents the first line of a block of text, e.g.: {text-indent: 35px;}</td>
+                        </tr>
+                        <tr>
+                            <td>letter-spacing</td>
+                            <td>Sets the spacing between individual character, e.g.: {letter-spacing: 2px;}. 
+                                Negative values are allowed, e.g.: {letter-spacing: -1px;}</td>
+                        </tr>
+                        <tr>
+                            <td>word-spacing</td>
+                            <td>Sets the spacing between individual words, e.g.: {word-spacing: 2px;}</td>
+                        </tr>
+                        <tr>
+                            <td>line-height</td>
+                            <td>Sets the height of a text line, e.g.: {line-height: 20px;}</td>
+                        </tr>
                     </tbody>
                 </table>
             </section>

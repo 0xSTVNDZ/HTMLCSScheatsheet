@@ -30,7 +30,7 @@ Room for improvement:
 - Add full MDN documention for both HTML & CSS
 
 To do:
-- Add CSS properties
+- Add html attributes
 
 
 ## Acknowledgements
